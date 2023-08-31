@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &__wrapper{
+        width: 700px;
+    }
+    &__btn{
+        border: 2px #000 solid;
+        background: #1100fc;
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+}

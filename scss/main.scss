@@ -1,0 +1,19 @@
+@import './mixin/var';
+@import './mixin/fonts';
+@import './mixin/mixin';
+@import './component/header';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
